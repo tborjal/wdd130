@@ -6,10 +6,10 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #9FFF33  ;
+  --primary-color: #dcc842  ;
   --secondary-color: #FDFDFD ;
   --accent1-color: #898A88;
-  --accent2-color: #85C3AD;
+  --accent2-color: #ffc165;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Amasis MT Pro Light";
@@ -22,7 +22,7 @@ Fonts are separated by a & */
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #898A88  ;
   --nav-link-color: #898A88;
-  --nav-background-color: #85C3AD;
+  --nav-background-color: #000000;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #898A88;
 }

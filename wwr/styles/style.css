@@ -24,7 +24,7 @@ nav a {
     }
 #hero-msg h1, #hero-msg h4{
     text-align:center;
-    color: burlywood;
+    color: black;
 }
 .button-box{
     text-align:center;
@@ -36,7 +36,7 @@ body {
     background-color:burlywood;
 }
 header {
-    background-color: black; 
+    background-color: burlywood; 
 }
 nav a:hover {
     background-color: gray; 

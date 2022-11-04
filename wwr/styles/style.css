@@ -46,9 +46,15 @@ body {
 }
 header {
     background-color: burlywood; 
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 nav a:hover {
     background-color: orange; 
+}
+nav {
+    display: flex;
+    justify-content: space-around;
 }
 .book:hover, .join:hover {
     background-color: white; 
@@ -81,6 +87,11 @@ footer p{
 #logo1 {
     width: 35px;
     height: 35px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 #hero-img{
     width: 900px;
@@ -129,5 +140,23 @@ main section img {
     width: 1500px;
     height: 600px;
 }
-            
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px; 
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}         
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
               

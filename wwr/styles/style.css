@@ -1,3 +1,8 @@
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
 #content{
     max-width: 1600px;
     margin: 0 auto; 
@@ -65,6 +70,10 @@ nav {
 .msg {
     background-color: orange; 
     height: 240px;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 footer {
     position: relative;
@@ -130,6 +139,8 @@ footer p{
 }
 .card-img {
     border: 10px solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
     
 }
 main section img {
@@ -159,4 +170,25 @@ main section img {
     grid-row: 1/2;
     margin-top: 100px;
 }
-              
+.card-img, .mountains {
+    width: 100%;
+}
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+footer {
+    background-color: #6f7364;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mountains {
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+}

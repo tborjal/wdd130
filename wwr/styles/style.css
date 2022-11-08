@@ -1,8 +1,4 @@
-@media screen and (max-width: 900px) {
-    #hero, .home-grid {
-        display: block;
-        height: auto;
-    }
+
 #content{
     max-width: 1600px;
     margin: 0 auto; 
@@ -190,5 +186,4 @@ footer {
     grid-column: 2/7;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
-}
 }

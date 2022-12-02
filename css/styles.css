@@ -1,0 +1,180 @@
+/* ------------- html ------------- */
+html {
+  overflow-y: scroll; 
+  overflow-x:hidden; 
+}
+
+/* ------------- body ------------- */
+body {
+  background-color: burlywood;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  display: block;
+  margin: 0;
+}
+
+/* ------------- main ------------- */
+
+div#main {
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+/* ------------- header ------------- */
+div#header {
+  background-image: url('../wwr/images/hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  height: 60%;
+  top: 35%;
+  margin: 0 auto;
+}
+
+div#sub_header {
+  width: 100%;
+  height: 60%;
+  top: 55%;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+div#sub_header > a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+div#sub_header > span#title {
+  font-size: 50px; margin: 0 auto; margin-top: 85px; display: block; font-family: Arial, Helvetica, sans-serif
+}
+
+div#sub_header > span#subtitle {
+  font-size: 15px; margin: 0 auto;display: block; font-family: Arial, Helvetica, sans-serif
+}
+
+div#navigation > ul {
+  list-style-type: none;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #333;
+  opacity: 0.65;
+}
+  
+div#navigation > ul > li {
+  float: left;
+}
+
+div#navigation > ul > li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+div#navigation > ul > li a:hover {
+  background-color: #000;
+}
+/* ------------- content ------------- */
+div#content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+div.three_column {
+  flex: 33.33%;
+  text-align: center;
+  display: block;
+  padding: 50px;
+  margin: 50px;
+}
+.borderimg {
+  border: 5px solid black;
+  transition: transform .5s;
+}
+
+div.three_column_1 {
+  flex: 33.33%;
+  text-align: center;
+  display: block;
+}
+
+div.container {
+   display: flex;
+}
+
+div.one_column {
+  flex: 100%;
+  text-align: left;
+  display: block;
+  padding-bottom: 100px;
+  padding-left: 300px;
+
+}
+
+div.one_column_overlapping {
+  position: absolute;
+  z-index: 2000;
+  left: 650px;
+  width: 300px;
+  height: 200px;
+  background-color: #333;
+  padding: 30px;
+  margin-top: 20px;
+  color: white;
+}
+
+/* ------------- footer ------------- */
+div#footer {
+  /* display: block; */
+  list-style-type: none;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+div#footer > ul {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  grid-gap: 10px 20px;
+  text-align: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  opacity: 0.65;
+  justify-content: space-around;
+}
+  
+div#footer > ul > li {
+  float: right;
+}
+
+div#footer > ul > li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 17px;
+  text-decoration: none;
+}
+
+div#footer > ul > li a:hover {
+  background-color: #000;
+}
+input{
+  background-color: white
+}
+input:hover #book:hover{
+  background-color: orange;
+}

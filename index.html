@@ -1,24 +1,100 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>WDD 130 Projects</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-  
-  </head>
-  <body> 
+    <meta name="description" content="A simple web page for project WDD 130 Projects">
+    <meta name="author" content="WDD 130 Projects">
 
-<h1>Welcome to WDD130 Web Projects</h1>
-<nav>
-  <a href="aboutme/index.html">About Me Page</a>             
-  <a href="wwr/index.html">White Water Rafting Website</a>
-  <a href="wwr/site-plan-rafting.html">White Water Rafting Siteplan</a>
-  <a href="practicecoding/positioning.html">Positioning Activity</a>
-  <a href="#">Personal Website</a>
-  <a href="#">Personal Siteplan</a>
-</nav>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
 
-<p> Your Name Here - WDD130</p>
-
+<body>
+    <!-- The #main will contain the whole page -->
+    <div id="main">
+        <!-- The #header will contain the header area -->
+        <div id="header">
+            <div id="navigation">
+                <ul>
+                    <li>
+                        <img src="wwr/images/logo.jpeg" width="30" height="30">
+                    </li>
+                    <li><a class="active" href="#aboutme">Home</a></li>
+                    <li><a class="page2" href="#whitewaterraftingwebsites">Page 2</a></li>
+                    <li><a class="siteplan" href="#whitewaterraftingsiteplan">Site Plan</a></li>
+                    <li><a class="contact" href="#positioningactivity">Contact Us</a></li>
+                <!--<li><a href="#personalwebsite">Personal Website</a></li>
+                    <li><a href="#personalplan">Personal Plan</a></li> -->
+                </ul>
+            </div>
+            <div id="sub_header">
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <span id="title"><i>Have an Adventure</i></span>
+                 <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <span id="subtitle"><i>Make memories with Dry Oar</i></span>
+                <p>&nbsp;</p>
+                <input type="button" id="book" value="Book Now">
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="three_column">
+                <img class='borderimg' src="wwr/images/rivers.jpg" width="200" height="200">
+                <div class="three_column_1">
+                    <img src="wwr/images/river.jpg" width="50" height="50">
+                </div>
+                <p>Rivers</p>
+            </div>
+            <div class="three_column">
+                <img class='borderimg' src="wwr/images/camping.jpg" width="200" height="200">
+                <div class="three_column_1">
+                    <img src="wwr/images/fire.jpg" width="50" height="50">
+                </div>
+                <p>Camping</p>
+            </div>
+            <div class="three_column">
+                <img class='borderimg' src="wwr/images/rapids.jpg" width="200" height="200">
+                <div class="three_column_1">
+                    <img src="wwr/images/paddle.jpg" width="50" height="50">
+                </div>
+                <p>Rapids</p>
+            </div>
+        </div>
+        <div class="container">
+            &nbsp;
+        </div>
+        <div class="container">
+            <div class="one_column">
+                <img src="wwr/images/mountains.jpg" width="450" height="300">
+            </div>
+            <div class="one_column_overlapping">
+                <h2>More Than Just The Thrill</h2>
+                <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than just the rapids. It's a great way to get away from it all and relax amongst all the beauty of the great outdoors.</p>
+                <p>&nbsp;</p>   
+               <center><input type="button" value="Join Us"></center>
+            </div>
+        </div>
+        <!-- The #footer will containt the footer aread -->
+        <div id="footer">
+            <ul>
+                <li>&nbsp; Dry Oar &copy; 20XX - Terence Borjal</li>
+                <li><a href="site-plan-rafting.html">Site Plan</a></li>
+                <li><a href="contactus.html">Contact Us</a></li><br>
+                <li><img src="wwr/images/fb2.png" width="30" height="30"></li>
+                <li><img src="wwr/images/ig2.png" width="30" height="30" href="#"></li>
+                <li><img src="wwr/images/twitter2.png"  width="30" height="30" href="#"><li>
+            </ul>
+        </div>
+    </div>
 </body>
+
 </html>

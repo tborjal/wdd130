@@ -129,6 +129,15 @@ div.three_column {
   padding: 50px;
   margin: 50px;
 }
+.borderimg{
+  border: 5px solid black;
+  transition: transform .5s;
+  position: relative;
+  bottom: 450px;
+  width: 250px;
+  height: 250px;
+  left: 150px;
+}
 .borderimg1 {
   border: 5px solid black;
   transition: transform .5s;

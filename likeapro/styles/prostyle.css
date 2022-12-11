@@ -129,8 +129,24 @@ html {
     padding: 50px;
     margin: 50px;
   }
+  div.three_column2 {
+    text-align: center;
+    display: flex;
+    padding: 50px;
+    margin: 50px;
+    background-color: white;
+  }
   .borderimg{
     border: 5px solid white;
+    transition: transform .5s;
+    position: relative;
+    bottom: 50px;
+    width: 250px;
+    height: 250px;
+    left: -70px;
+  }
+  .borderimgv{
+    border: 5px solid #434242;
     transition: transform .5s;
     position: relative;
     bottom: 50px;
@@ -148,9 +164,37 @@ html {
     text-align: center;
     display: block;
   }
+  div.three_column_2 {
+    flex: 33.33%;
+    text-align: center;
+    display: flex;
+    background-color: khaki;
+
+  }
+  .info{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+  }
+  .info2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    left: 35px;
+  }
+  .info3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+  }
   
   div.container {
-     display: flex;
+     display: block;
   }
   
   div.one_column {
@@ -329,11 +373,29 @@ html {
     font-size: 18px;
   }
   
+
   
   button:hover, a:hover {
     opacity: 0.7;
   }
   
-
-
+ .namebrand1{
+  position: relative;
+  bottom: 110px;
+  left: 80px;
+  
+ }
+ .namebrand2{
+  position: relative;
+  bottom: 110px;
+  left: 60px;
+  
+ }
+ .namebrand3{
+    position: relative;
+    bottom: 110px;
+    left: 50px;
+    
+   }
+ 
   

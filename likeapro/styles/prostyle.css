@@ -353,6 +353,18 @@ html {
     margin: auto;
     text-align: center;
     font-family: arial;
+    position: relative;
+    right: 400px;
+  }
+  .card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    position: relative;
+    left: 500px;
+    bottom: 400px;
   }
   
   .title {
@@ -395,7 +407,23 @@ html {
     position: relative;
     bottom: 110px;
     left: 50px;
-    
    }
+
+  .ceo {
+    position: absolute;
+    z-index: 2000;
+    width: 650px;
+    height: 400px;
+    background-color: #333;
+    padding: 30px;
+    margin-top: 20px;
+    color: white;
+    bottom: 50px;
+    left: 400px;
+  }
+  .terence{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+  }
  
   

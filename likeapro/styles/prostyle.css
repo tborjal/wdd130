@@ -7,7 +7,7 @@ html {
   /* ------------- body ------------- */
   body {
     background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 12px;
     display: block;
     margin: 0;
@@ -290,8 +290,19 @@ html {
   
   .button {
     /* Align buttons with the text fields */
-    padding-left: 90px; /* same size as the label elements */
+    background-color: #A43312; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
   }
+  .button:hover{
+    background-color:#4CAF50;
+  }
+
   
   button {
     /* This extra margin represent roughly the same space as the space

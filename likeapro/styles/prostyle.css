@@ -194,8 +194,12 @@ html {
   }
   
   div.container {
-     display: block;
+     display: flex;
   }
+  div.container1 {
+    display: block;
+ }
+  
   
   div.one_column {
     flex: 100%;
